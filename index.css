@@ -89,12 +89,12 @@ WRITE YOUR CODE BELOW 👇
     border: 2px solid black;
     padding: 20px;
     display: grid;
-    grid-template-columns: repeat(3, minmax(200px,1fr));
+    grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
     grid-template-rows: repeat(auto-fit, minmax(300px, 1fr));
     /* auto min-content auto; */
     grid-gap: 1em;
     background-color: white;
-    /* grid-auto-flow: dense; */
+    grid-auto-flow: dense;
     .featured-article {
         grid-row: 1 ;
         grid-column: 1/ 4;
