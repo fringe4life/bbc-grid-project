@@ -4,6 +4,9 @@ Install the dependencies and run the project
 npm install
 npm start
 ```
+## My version of a Project from Scrimba's free CSS Grid course.
+
+Although looking back at this code, it sure seem's overcomplicated!
 
 Head over to https://vitejs.dev/ to learn more about configuring vite
 ## About Scrimba
